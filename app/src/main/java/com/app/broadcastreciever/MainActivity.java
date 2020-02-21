@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         setId();
         setListener();
+        Toast.makeText(this, "There is a Static BCR for Incoming Calls", Toast.LENGTH_LONG).show();
     }
     public void setId(){
         btnRegPower=findViewById(R.id.registerPower);
@@ -45,8 +46,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onStop() {
         super.onStop();
-        unregisterReceiver(powerBCR);
-        unregisterReceiver(networkBCR);
     }
 
     @Override
