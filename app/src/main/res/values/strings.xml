@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BroadcastReciever</string>
+    <string name="power_bcr">Power BCR : </string>
+    <string name="network_bcr">Network BCR : </string>
+    <string name="register_bcr">Register Broadcast</string>
+    <string name="unregister_bcr">UnRegister Broadcast</string>
+</resources>
